@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    
+    <!-- android:layout_above="@+id/rlReklama" -->
+
+
+    <!-- <RelativeLayout -->
+    <!-- android:id="@+id/rlReklama" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- android:layout_alignParentLeft="true" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tvReklama" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="50dp" -->
+    <!-- android:text="REKLAMA" -->
+    <!-- android:gravity="center" -->
+    <!-- android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+    <!-- </RelativeLayout> -->
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gallery_background"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonList"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/list"
+            android:padding="3dp" />
+
+        <ScrollView
+            android:id="@+id/gallElementPhotos"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp" >
+
+            <LinearLayout
+                android:id="@+id/galLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+	<android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:background="@drawable/frag_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/llTop" />
+
+    <ListView
+        android:id="@+id/listPic"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/llTop"
+        android:layout_margin="5dp"
+        android:background="@drawable/lista_background"
+        android:layout_marginBottom="100dp"
+        android:visibility="invisible" >
+    </ListView>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Photobook</string>
+    <string name="albumi">FOTO-KNJIGE</string>
+    <string name="search">Pretraga</string>
+    <string name="open_album">Otvorite postojeću foto-knjigu</string>
+    <string name="create_new_album">Kreirajte novu foto-knjigu</string>
+    <string name="delete_album">Obrišite postojeću foto-knjigu</string>
+    <string name="deleting_album">Brisanje foto-knjige</string>
+    <string name="open_d_album">Otvaranje foto-knjige</string>
+	<string name="question_delete">Da li zaista želite izbrisati ove foto-knjige?</string>
+    <string name="delete">Briši</string>
+	<string name="cancel">Odustajanje</string>
+    <string name="choose_pic">Odabir slike sa diska</string>
+	<string name="creating_album">Kreiranje nove foto-knjige</string>
+    <string name="enter_title_for_album">Unesite naslov za foto-knjigu.</string>
+    <string name="confirm">Potvrda</string>
+    <string name="no_title">Nema traženog naslova.</string>
+    <string name="no_pic_title">Morate unijeti naslov slike.</string>
+    <string name="add_pic">Dodavanje slike</string>
+    <string name="enter_pic_title">Unesite naslov slike.</string>
+    <string name="choose_pic_button">Odabir slike</string>
+    <string name="text_field_empty">Dotaknite jednom za širenje polja, drugi put za unos teksta. Dotaknite izvan polja
+        								za skupljanje ili prekid unosa teksta.</string>
+    <string name="export_finished">Podaci su uspješno exportirani u datoteku : </string>
+    <string name="import_finished">Foto knjiga je uspješno importirana u aplikaciju. </string>
+    <string name="export_album">Exportirajte foto-knjigu </string>
+    <string name="import_album">Importirajte foto-knjigu</string>
+    <string name="error">Došlo je do greške u operaciji.</string>
+    <string name="no_album_open">Nema drugih foto-knjiga koji bi se mogli otvoriti.</string>
+    <string name="no_album_del">Nema foto-knjiga koji bi se mogli izbrisati.</string>
+</resources>

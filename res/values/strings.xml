@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Photobook</string>
+    <string name="albumi">PHOTOBOOKS</string>
+    <string name="search">Search</string>
+    <string name="open_album">Open existing photobook</string>
+    <string name="create_new_album">Create new photobook</string>
+    <string name="delete_album">Delete existing photobook</string>
+    <string name="deleting_album">Delete photobook</string>
+    <string name="open_d_album">Open photobook</string>
+	<string name="question_delete">Do you really want to delete these photobooks?</string>
+    <string name="delete">Delete</string>
+	<string name="cancel">Cancel</string>
+    <string name="choose_pic">Choose picture from disk.</string>
+	<string name="creating_album">Create new photobook.</string>
+    <string name="enter_title_for_album">Enter title for photobook.</string>
+    <string name="confirm">Confirm</string>
+    <string name="no_title">Entered title is not found.</string>
+    <string name="no_pic_title">You must enter the title for the picture.</string>
+    <string name="add_pic">Add a picture.</string>
+    <string name="enter_pic_title">Enter title for picture.</string>
+    <string name="choose_pic_button">Choose picture</string>
+    <string name="text_field_empty">Touch once for expanding, second time for entering new text. Touch outside
+        								of field for text-field shrinking, or ending text input.</string>
+    <string name="export_finished">Data are successfully exported in file : </string>
+    <string name="import_finished">photobook is successfully imported in application</string>
+    <string name="export_album">Export photobook</string>
+    <string name="import_album">Import photobook</string>
+    <string name="error">There was an error during the operation!</string>
+    <string name="no_album_open">There are no other photobooks that could be opened.</string>
+    <string name="no_album_del">There are no photobooks that could be deleted.</string>
+    <string name="img_desc">Start hints image</string>
+</resources>

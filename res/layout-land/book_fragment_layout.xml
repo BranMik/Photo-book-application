@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:id="@+id/relParent2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frag_background"
+    android:gravity="center"
+    android:orientation="vertical" 
+    android:clickable="true" 
+    android:focusableInTouchMode="true" >
+
+    <com.branko.photobook.TouchImageView
+        android:id="@+id/ivElementPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/tvElementText"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvElementText"
+        android:layout_height="match_parent"
+        android:layout_width="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="10dp"
+        android:layout_above="@+id/tvElementTitle"
+        android:background="@drawable/text_background_low"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" 
+		android:scrollbars = "vertical"/>
+
+    <TextView
+        android:id="@+id/tvElementTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/title_background_high"
+        android:ems="30"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDelEl"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/buttonFullUnfull"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/min2" />
+
+    <Button
+        android:id="@+id/buttonFullUnfull"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/buttonRotateRight"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/full_scr2" />
+
+    <Button
+        android:id="@+id/buttonRotateRight"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/tvElementTitle"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/rot_right2" />
+
+    <com.branko.photobook.EditTextBackEv
+        android:id="@+id/etElementTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_above="@+id/tvElementTitle"
+        android:layout_toRightOf="@+id/tvElementText"
+        android:background="#333333"
+        android:ems="30"
+        android:inputType="none"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible" />
+
+    <com.branko.photobook.EditTextBackEv
+        android:id="@+id/etElementText"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/tvElementText"
+        android:layout_above="@+id/tvElementTitle"
+        android:layout_margin="2dp"
+        android:background="#333333"
+        android:inputType="none"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible" >
+
+        <requestFocus />
+    </com.branko.photobook.EditTextBackEv>
+
+</RelativeLayout>
