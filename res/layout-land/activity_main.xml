@@ -7,27 +7,6 @@
     android:focusableInTouchMode="true"
     tools:context="${relativePackage}.${activityClass}" >
 
-    
-    <!-- android:layout_above="@+id/rlReklama" -->
-
-
-    <!-- <RelativeLayout -->
-    <!-- android:id="@+id/rlReklama" -->
-    <!-- android:layout_width="wrap_content" -->
-    <!-- android:layout_height="wrap_content" -->
-    <!-- android:layout_alignParentBottom="true" -->
-    <!-- android:layout_alignParentLeft="true" > -->
-
-
-    <!-- <TextView -->
-    <!-- android:id="@+id/tvReklama" -->
-    <!-- android:layout_width="fill_parent" -->
-    <!-- android:layout_height="50dp" -->
-    <!-- android:text="REKLAMA" -->
-    <!-- android:gravity="center" -->
-    <!-- android:textAppearance="?android:attr/textAppearanceLarge" /> -->
-    <!-- </RelativeLayout> -->
-
     <LinearLayout
         android:id="@+id/llTop"
         android:layout_width="wrap_content"
